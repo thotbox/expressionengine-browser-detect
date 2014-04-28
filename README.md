@@ -17,14 +17,22 @@ Copy the "browser_detect" folder to your /system/expressionengine/third_party fo
 
 ### Usage
 
-Use the `{exp:browser_detect}` tag (single) in your ExpressionEngine templates to output browser identifier.
+Use the {exp:browser_detect:browser} tag to output browser identifier.
+
+Use the {exp:browser_detect:family} tag output browser family.
 
 Generally speaking, I tend to use this plugin in conjunction with standard EE conditionals to control the loading of browser specific stylesheets and javascript.
 
-#### Example
+#### Examples
 
 ```
-{if '{exp:browser_detect}' == 'IE8'}
+{if '{exp:browser_detect:browser}' == 'IE8'}
+	...
+{/if}
+```
+
+```
+{if '{exp:browser_detect:family}' == 'IE'}
 	...
 {/if}
 ```
