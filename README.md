@@ -1,4 +1,3 @@
-
 ## Description
 
 Expressionengine plugin which detects browser based on HTTP_USER_AGENT.
@@ -40,7 +39,7 @@ Generally speaking, I tend to use this plugin in conjunction with standard EE co
 ### Browsers
 
 #### Internet Explorer
-* IE11 (relies on Trident/7.0 in user agent string for the time being to get around Microsoft's deliberate attemt to make IE11 appear as Gecko)
+* IE11 (relies on Trident/7.0 in user agent string for the time being to get around Microsoft's deliberate attempt to make IE11 appear as Gecko)
 * IE10
 * IE9
 * IE8
