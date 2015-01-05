@@ -1,7 +1,7 @@
 <?php
 
 $plugin_info = array(
-    'pi_name' => 'Thotbox Browser Detect',
+    'pi_name' => 'Thotbox: Browser Detect',
     'pi_author' =>'Shane Woodward',
     'pi_description' => 'HTTP_USER_AGENT browser detection',
     'pi_version' =>'1.1',
