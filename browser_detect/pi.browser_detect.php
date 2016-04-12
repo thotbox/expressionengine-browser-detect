@@ -138,7 +138,7 @@ class browser_detect {
 
     }
 
-    public function usage() {
+    public static function usage() {
         ob_start();
     ?>
         Use the {exp:browser_detect:browser} tag to output browser identifier.

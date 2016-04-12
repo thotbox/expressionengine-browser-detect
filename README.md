@@ -12,7 +12,7 @@ If you need more granular detection for obscure browsers, feel free to fork this
 
 ### Installation
 
-Copy the "browser_detect" folder to your /system/expressionengine/third_party folder.
+Copy the "browser_detect" folder to your /system/expressionengine/third_party (EE2) or /system/user/addons (EE3) folder.
 
 ### Usage
 
